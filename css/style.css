@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+img {
+    width: 350px;
+    margin-inline: 55px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+    padding-top: 4rem;
+}
+
+.movie-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 3rem;
+}
+
+.card-image, .card-text {
+    width: calc(50% - 50px);
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.card-text div {
+    margin-block: 1rem;
+}
+
+.quote {
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+
+.quote i {
+    font-size: 1.3rem;
+    vertical-align: super;
+}
+   
+
